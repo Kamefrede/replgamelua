@@ -1,0 +1,10 @@
+dagger_damage =  53 
+gun_damage = 80
+crossbow_damage = 75 
+sickle_damage = 30
+wand_damage = 20
+dagger_crit = 106
+gun_crit = 160
+crossbow_crit = 150
+sicke_crit = 60
+wand_crit = 40
