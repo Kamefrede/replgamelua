@@ -30,7 +30,7 @@ function chooseWeapon()
 end
 
 function confirm()
-	io.write("The old man asks: \n"
+	io.write("The old man asks: \n")
 	io.write("Are you brave enough to enter the dungeon? Yes/No \n")
 	local response = io.read()
 	if check(yes, response) == true then
@@ -79,7 +79,7 @@ function sleepy()
 end
 
 function gameOver()
-	io.write("Game Over, Play Again? Yes/No")
+	io.write("Game Over, Play Again? Yes/No\n")
 	local response = io.read()
 	if check(yes, response) == true then
 		for i=1,30 do
